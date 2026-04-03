@@ -17,15 +17,20 @@ h3{
 
 }
 .card-bg {
-    background-color: rgba(247, 208, 82, 0.5) !important;
+    background-image: linear-gradient(
+        0deg,
+        rgb(152, 226, 181),   /* 上方顏色 */
+        rgb(220, 255, 181)  /* 下方顏色 */
+    );
+    opacity: 0.8;
 }
 .card{
-    box-shadow: 0px 0px 15px rgb(0, 0, 0) ;
+    box-shadow: 0px 0px 15px rgb(220, 255, 204) ;
 }
 body {
     min-height: 100vh;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/img3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/img3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
