@@ -1,6 +1,12 @@
 a {
     text-decoration: none !important;
 }
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+h3{
+    font-family: 'Gluten',sans-serif;
+}
 .logoDiv{
     width: 8rem;
     height: 8rem;
