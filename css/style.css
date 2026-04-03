@@ -1,0 +1,28 @@
+a {
+    text-decoration: none !important;
+}
+.logoDiv{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100% ;
+    background-image: url(../img/logo.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.card-bg {
+    background-color: rgba(247, 208, 82, 0.5) !important;
+}
+.card{
+    box-shadow: 0px 0px 15px rgb(0, 0, 0) ;
+}
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+}
